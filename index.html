@@ -256,6 +256,7 @@
             gestionMaestrasBtn.style.display = isAdmin ? 'flex' : 'none';
             loadCsvBtn.style.display = isAdmin || isCoordinador ? 'flex' : 'none';
             addAccountBtn.style.display = isAdmin || isEspecialista || isCoordinador ? 'flex' : 'none';
+            deleteSelectedBtn.style.display = isAdmin || isCoordinador ? 'flex' : 'none';
             renderAccounts();
         }
 
